@@ -823,3 +823,22 @@ Reliability. If the model is unavailable or returns malformed output, rule-based
 ---
 
 *Built for Prelint Hackathon | Clarity — Making persuasion signals visible.*
+
+---
+
+## 🔍 Prelint Code Review
+
+This repo uses [Prelint](https://prelint.com) to automatically review every pull request against the product spec.
+
+**After opening a PR:**
+1. Wait up to **5 minutes** for the Prelint review results to appear as a PR comment
+2. Look for the `prelint/check` status check at the bottom of the PR
+3. Click **"Details"** to see the full review — any spec conflicts are listed inline
+
+**Spec files Prelint checks against:**
+- `specs/product.md` — pattern types, scoring rules, API contract
+- `specs/architecture.md` — folder structure, stack constraints, port config
+- `README.md` — overall scope and what is explicitly out of scope
+
+> If you don't see results after 5 minutes, check that the Prelint GitHub App is installed at https://app.prelint.com
+
