@@ -72,3 +72,4 @@ explicitly excluded from scope.
 - Prelint config: `.prelint.yml` (already committed)
 
 **Next action:** open PR from `jing-v1` → `main` at the URL above.
+
